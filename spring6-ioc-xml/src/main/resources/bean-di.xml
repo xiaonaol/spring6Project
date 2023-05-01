@@ -11,7 +11,11 @@
 <!--            <null></null>-->
 <!--        </property>-->
 <!--        特殊字符转义-->
-        <property name="others" value="&lt;&gt;"></property>
+<!--        <property name="others" value="&lt;&gt;"></property>-->
+<!--        CDATA区写特殊符号-->
+        <property name="others">
+            <value><![CDATA[a < b]]></value>
+        </property>
     </bean>
 
     <!--构造器注入-->
