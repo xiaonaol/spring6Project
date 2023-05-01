@@ -3,6 +3,7 @@ package com.xiaonaol.bean.di;
 public class Book {
     private String bname;
     private String author;
+    private String others;
 
     public Book() {
         System.out.println("无参数构造执行了...");
@@ -30,5 +31,9 @@ public class Book {
 
         //通过构造器注入
         Book book1 = new Book("c++", "xiaonaol");
+    }
+
+    public void setOthers(String others) {
+        this.others = others;
     }
 }

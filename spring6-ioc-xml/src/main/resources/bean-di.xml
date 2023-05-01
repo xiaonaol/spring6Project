@@ -6,6 +6,12 @@
     <bean id="book" class="com.xiaonaol.bean.di.Book">
         <property name="bname" value="前端开发"></property>
         <property name="author" value="xiaonaol"></property>
+<!--        null值的处理-->
+<!--        <property name="others">-->
+<!--            <null></null>-->
+<!--        </property>-->
+<!--        特殊字符转义-->
+        <property name="others" value="&lt;&gt;"></property>
     </bean>
 
     <!--构造器注入-->
