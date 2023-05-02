@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--set方法注入-->
-    <bean id="book" class="com.xiaonaol.bean.di.Book">
+    <bean id="book" class="com.xiaonaol.di.Book">
         <property name="bname" value="前端开发"></property>
         <property name="author" value="xiaonaol"></property>
 <!--        null值的处理-->
@@ -19,7 +19,7 @@
     </bean>
 
     <!--构造器注入-->
-    <bean id="bookCon" class="com.xiaonaol.bean.di.Book">
+    <bean id="bookCon" class="com.xiaonaol.di.Book">
         <constructor-arg name="bname" value="java开发"></constructor-arg>
         <constructor-arg name="author" value="xiaonaol"></constructor-arg>
     </bean>

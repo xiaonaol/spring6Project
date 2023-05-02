@@ -1,4 +1,4 @@
-package com.xiaonaol.bean.di;
+package com.xiaonaol.di;
 
 public class Book {
     private String bname;

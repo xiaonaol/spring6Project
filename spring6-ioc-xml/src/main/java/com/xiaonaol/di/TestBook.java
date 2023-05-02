@@ -1,4 +1,4 @@
-package com.xiaonaol.bean.di;
+package com.xiaonaol.di;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
